@@ -1,4 +1,13 @@
 package nyc.cleo.changeme
 
-class ChangeMe {
+import net.axay.kspigot.main.KSpigot
+
+class ChangeMe : KSpigot() {
+    // onLoad()
+    override fun load() { }
+    // onEnable()
+    // Where most startup functionality should be
+    override fun startup() { }
+    // onDisable
+    override fun shutdown() { }
 }
